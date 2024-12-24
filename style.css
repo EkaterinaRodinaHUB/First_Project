@@ -1,0 +1,13 @@
+h1 {
+    color: darkgreen;
+    background-color: lightgreen;
+    font-size: 40px;
+   }
+   
+
+   Напишите комбинированный селектор, который выберет для ссылки с классом my-link 
+   всех соседей и задаст им сплошной border оранжевого цвета толщиной в 2 пикселя.
+
+   my-link + * {
+    border: 2px solid orange;
+   }
